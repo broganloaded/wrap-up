@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Collection & History</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">My Vehicle History</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="cars.html" class="nav-link">Cars</a></li>
+                        <li class="nav-item"><a href="motorcycles.html" class="nav-link">Motorcycles</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-4">
+        <h1>My Car History</h1>
+        <p>Here is an overview of the cars I have owned.</p>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Make & Model</th>
+                    <th>Additional Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2003</td>
+                    <td>Toyota Corolla S</td>
+                    <td>5-speed manual transmission. 4-door sedan. Around 34 MPG. No longer own.</td>
+                </tr>
+                <tr>
+                    <td>2011</td>
+                    <td>Volkswagen GTI</td>
+                    <td>6-speed manual transmission. 2-door coupe. Stage 1 Tune. Around 23 MPG. No longer own.</td>
+                </tr>
+                <tr>
+                    <td>2012</td>
+                    <td>Volkswagen GTI</td>
+                    <td>6-speed manual transmission. 2-door coupe. Stage 2 Tune. Around 22 MPG. Currently own.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="row g-3">
+            <div class="col">
+                <img src="images/IMG_3480.JPG" class="img-fluid rounded shadow" alt="2003 Toyota Corolla S." width="500" height="900">
+            </div>
+            <div class="col">
+                <img src="images/IMG_3477.JPG" class="img-fluid rounded shadow" alt="2011 Volkswagen GTI." width="500" height="900">
+            </div>
+            <div class="col">
+                <img src="images/IMG_3478.JPG" class="img-fluid rounded shadow" alt="2012 Volkswagen GTI." width="500" height="900">
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-light text-center p-4">
+        <p>&copy; 2025 My Vehicle History</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
